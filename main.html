@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>MedObtain</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navbar section -->
+
+    <!-- <div class="popup-tagline">
+        <p>Urgent need of blood, Oxygen Cylinder & more ? &nbsp;&nbsp;&nbsp;<span class="popup-link">click here</span>
+        </p>
+        <p>X</p>
+    </div>  -->
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Med<span class="logo-nth-2">Obtain</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Oxygen Cylinders</a>
+                </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0"> -->
+            <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <!-- <button class="btn btn-outline-success my-2 my-sm-0 mx-2" type="submit">Search</button> -->
+            <button class="btn btn-outline-success login-register-btn my-sm-0" type="submit">Login / Register</button>
+            <!-- </form> -->
+        </div>
+    </nav>
+
+    <div class="spacing-div"></div>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./Assets/emergency.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./Assets/emergency.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./Assets/emergency.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <br>
+
+    <!-- about our company -->
+    <div class="container-fluid about">
+        <div class="row">
+            <div class="col-md-6 doctor-img d-flex justify-content-center align-items-center" style="height:100%;">
+                <!-- image section -->
+                <img src="./Assets/doctor.png" alt="">
+            </div>
+            <!-- content section  -->
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h1 class="text-dark quick">Why Med<span style="color:var(--green);">Obtain</span> ?</h1>
+                <p>Lorem ipsum dolor sit ametspiciatis consequuntur vitae laudantium deleniti rerum nisi?
+                    Temporibus, sunt odit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis enim accusamus consectetur ullam facilis corrupti doloribus, pariatur vitae ad expedita!</p>
+                <div class="buttons">
+                    <button>About More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+
+    <!-- quick service section  -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="text-dark mt-30 quick"> <b><u> Quick Services </u></b> </h1> <br>
+                        <h5>These are the Quick Services offered by our corporation</h5> <br>
+                        <div class="buttons">
+                            <a href="bloodavail.html"><button>Check Availability of Specific Blood</button></a>
+                            <br><br>
+                            <a href="#"><button>Check Availability of Oxygen Cylinders</button></a> <br> <br>
+                            <a href="#"><button>Check Availability of Covid Vaccines </button></a> <br> <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-30">
+                    <div class="card-body">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <br><br>
+
+    <!-- Services section  -->
+    <br>
+    <h1 class="quick">Our Services</h1>
+    <br><br>
+    <div class="container my-services-container">
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-3 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Blood Availability</h4>
+                </div>
+                <div class="card-body">
+                    <img src="" alt="sample-image">
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque vel voluptatem libero
+                            dolores quam dolor, recusandae repellat illum ab, magnam, minima provident nostrum
+                            eveniet nesciunt at soluta hic incidunt? Perspiciatis.</li>
+
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                </div>
+            </div>
+            <div class="card mb-3 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Oxygen Cylinders</h4>
+                </div>
+                <div class="card-body">
+                    <img src="" alt="sample-image2">
+
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, quisquam? Dignissimos,
+                            quod. Dignissimos amet, laborum ducimus quia iure tenetur nesciunt alias consequuntur
+                            repellendus perspiciatis, quos fugiat accusamus? Dolore</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                </div>
+            </div>
+
+
+            <div class="card mb-3 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Covid Vaccines</h4>
+                </div>
+                <div class="card-body">
+                    <img src="" alt="sample-image-3">
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, et recusandae tempore
+                            ullam eligendi impedit. Labore cumque culpa quisquam quo suscipit ex fugiat ipsa porro,
+                            aut unde, vitae ad voluptatum. Lorem ipsum dolor sit amet.</li>
+
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                </div>
+            </div>
+            <!-- <div class="mb-3 box-shadow">
+                <img src="doc.jpg" alt="Big Image">
+            </div> -->
+        </div>
+
+        <!-- contact and login section  -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="text-dark mt-30 quick"> Do you have any queries regarding our Services or Do you want
+                        to ask questions. <br> <br> Feel free to contact us any time and our team will provide you
+                        with a solution within 24hours </h2> <br>
+                    <div class="buttons">
+                        <a href="#"><button>Contact US</button></a> <br><br>
+                        <a href="#"><button>Ask Questions?</button></a> <br> <br>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card  mt-100">
+                        <div class="card-body">
+                            <form class="form">
+                                <h2 class="quick">Want to register your Hospital With Us?</h2>
+                                <h3 class="quick">Please enter the following details:-</h3>
+                                <label>Email</label>
+                                <br>
+                                <input type="email" class="form-control" name="email"><br>
+                                <label>Password</label>
+                                <input type="password" class="form-control" name="password">
+                                <br><br>
+                                <input type="Submit" class="btn btn-primary btn-block btn-lg" vlaue="login">
+                            </form>
+                            <p class="mt-2"> Not a Member? <a href="register.html">Create account</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+
+
+</body>
+
+</html>

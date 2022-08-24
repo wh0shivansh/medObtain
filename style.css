@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200&family=Poppins:wght@200&family=Roboto+condensed:wght@300&display=swap&family=Yanone+Kaffeesatz&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif */
+
+:root{
+    --green:#05cfa0;
+    --footer:#1a1a1d;
+}
+.row{
+    height: 100%;
+    width: 100%;
+}
+.spacing-div{
+    background-color: var(--green);
+    width: 100%;
+    height: 4rem;
+}
+#navbarSupportedContent{
+    font-size: 1.2rem;
+    font-family: 'lato';
+    font-weight: bold;
+    /* background-color: red; */
+    display: flex;
+
+}
+nav{
+    height: 4em;
+}
+.popup-link{
+    text-decoration: underline;
+}
+.popup-tagline{
+    width: 100%;
+    height: 2rem;
+    background-color: var(--green);
+    color: #feffff;
+    letter-spacing: .3px;
+    text-transform: lowercase;
+    /* font-family: 'Yanone Kaffeesatz'; */
+    padding-left: 4rem;
+    /* text-shadow: 0 0 .5px #000; */
+}
+.popup-tagline p{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+    align-items: center;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'lato';
+    font-weight: bold;
+}
+.logo-nth-2{
+    color: var(--green);
+    /* font-weight: bold; */
+    font-size: 2rem;
+}
+.login-register-btn{
+    background-color: var(--green);
+    color: #feffff;
+    border: none;
+    /* font-family: 'lato'; */
+    font-weight: bold;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+
+
+.buttons button{
+    /* padding: 10px 15px; */
+    border-radius: 2px;
+    color: white;
+    position: relative;
+    top: 2rem;
+    /* background-color: rgba(23, 29, 213, 0.896); */
+    background-color: var(--green);
+    font-weight: bold;
+    color: rgb(244, 238, 238);
+    font-family:'lato';
+    font-size: 1.3rem;
+    height: 2.4rem;
+    width: 8rem;
+    border: 0;
+    cursor: pointer;
+}
+.about{
+    height: 35rem;
+    overflow: hidden;
+    /* background-color: red; */
+    /* position: relative; */
+    padding-right: 1rem;
+
+}
+.about h1{
+    font-family: 'lato';
+    font-weight: bold;
+}
+.about p{
+    position: relative;
+    font-family: 'lato';
+    /* font-weight: bold; */
+    top: 1.3rem;
+    font-size: 1.3rem;
+}
+.buttons button:hover{
+    border: 1px solid var(--green);
+    color: var(--green);
+    background-color: transparent;
+    
+}
+.doctor-img img{
+    height: 100%;
+    width: 40%;
+    /* transform: scale(0.7); */
+    /* background-color: red; */
+}
+
+.quick{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* font-weight: bold; */
+    font-size: 25px;
+}
+.my-services-container{
+
+}
+
+img{
+    height: 400px;
+    width: 340px;
+}
+
+/* SWIPER JS  */
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      .mySwiper{
+        height: 29rem;
+        width: 99%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        filter: brightness(30%);
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
