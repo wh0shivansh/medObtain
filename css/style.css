@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200&family=Poppins:wght@200&family=Roboto+condensed:wght@300&display=swap&family=Yanone+Kaffeesatz&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif */
+
+:root {
+    --green: #05cfa0;
+    --footer: #1a1a1d;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+}
+
+.spacing-div {
+    background-color: var(--green);
+    width: 100%;
+    height: 4rem;
+}
+
+#navbarSupportedContent {
+    font-size: 1.2rem;
+    font-family: 'lato';
+    font-weight: bold;
+    /* background-color: red; */
+    display: flex;
+
+}
+
+nav {
+    height: 4em;
+    overflow: hidden;
+}
+
+.popup-link {
+    text-decoration: underline;
+}
+
+.popup-tagline {
+    width: 100%;
+    height: 2rem;
+    background-color: var(--green);
+    color: #feffff;
+    letter-spacing: .3px;
+    text-transform: lowercase;
+    /* font-family: 'Yanone Kaffeesatz'; */
+    padding-left: 4rem;
+    /* text-shadow: 0 0 .5px #000; */
+}
+
+.popup-tagline p {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'lato';
+    font-weight: bold;
+}
+
+.logo-nth-2 {
+    color: var(--green);
+    /* font-weight: bold; */
+    font-size: 2rem;
+}
+
+.login-register-btn {
+    background-color: var(--green);
+    color: #feffff;
+    border: none;
+    /* font-family: 'lato'; */
+    font-weight: bold;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+
+
+.buttons button {
+    /* padding: 10px 15px; */
+    border-radius: 2px;
+    color: white;
+    position: relative;
+    top: 2rem;
+    /* background-color: rgba(23, 29, 213, 0.896); */
+    background-color: var(--green);
+    font-weight: bold;
+    color: rgb(244, 238, 238);
+    font-family: 'lato';
+    font-size: 1.3rem;
+    height: 2.4rem;
+    width: 8rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.about {
+    height: 35rem;
+    overflow: hidden;
+    /* background-color: red; */
+    /* position: relative; */
+    padding-right: 1rem;
+
+}
+
+.about h1 {
+    font-family: 'lato';
+    font-weight: bold;
+}
+
+.about p {
+    position: relative;
+    font-family: 'lato';
+    /* font-weight: bold; */
+    top: 1.3rem;
+    font-size: 1.3rem;
+}
+
+.buttons button:hover {
+    border: 1px solid var(--green);
+    color: var(--green);
+    background-color: transparent;
+
+}
+
+.doctor-img img {
+    height: 100%;
+    width: 40%;
+    /* transform: scale(0.7); */
+    /* background-color: red; */
+}
+
+.one-tap-solution {
+    font-family: 'poppins';
+    font-weight: bold;
+    margin-bottom: 0;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #feffff; */
+    /* background-color: var(--green); */
+    z-index: 1000;
+}
+
+.one-tap-solution span {
+    color: var(--green);
+}
+
+.one-tap-links {
+    background-color: var(--green);
+    color: #feffff;
+    font-family: 'lato';
+    font-weight: bold;
+}
+
+.one-tap-links:hover {
+    background-color: transparent;
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+.card-header {
+    background-color: transparent;
+}
+
+.color-green {
+    color: var(--green);
+}
+
+.pad-right {
+    padding-right: 30px;
+}
+
+.bgimage {
+    position: relative;
+}
+
+.bg-span {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: brightness(35%) contrast(85%);
+    background: url('../Assets/image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* font-weight: bold; */
+    font-size: 25px;
+}
+
+
+/* .my-services-container {} */
+
+
+img {
+    height: 400px;
+    width: 340px;
+}
+
+
+/* SWIPER JS  */
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.mySwiper {
+    height: 35rem;
+    width: 99%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    position: absolute;
+    filter: brightness(70%);
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+.my-container{
+    background-color: #feffff;
+    height: 14rem;
+    width: 38rem;
+}
+.my-container h1{
+    font-size: 7rem;
+    color: black;
+    /* -webkit-text-stroke-width: 1px; */
+    /* -webkit-text-stroke-color: black; */
+    font-family: 'lato';
+    font-weight: bold;
+}
+
+/* FORM CSS */
+form select {
+    border: 1px solid var(--green);
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: 'poppins';
+    font-weight: bold;
+    padding-left: 1rem;
+    outline: none;
+    height: 2.4rem;
+    width: 12rem;
+}
+
+form input {
+    color: #feffff;
+    background-color: var(--green);
+    border: none;
+    border-radius: 3px;
+    height: 2.4rem;
+    width: 12rem;
+}
+.quick-service-section{
+    height: 30rem;
+    width: 100%;
+}
+/* row  */
+.quick-service-section div{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+/* Table css  */
+.table-row th{
+    font-size: 1.4rem;
+    font-family: 'lato';
+    letter-spacing: .8px;
+    font-weight: bold;
+}
+.table-body td{
+    font-family: 'lato';
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.px-30{
+    padding:0 10rem;
+
+}
+.form-input{
+    border: 1px solid var(--green);
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: 'poppins';
+    font-weight: bold;
+    outline: none;
+}
+
+.form-button{
+    /* padding: 10px 15px; */
+    border-radius: 2px;
+    color: white;
+    /* background-color: rgba(23, 29, 213, 0.896); */
+    background-color: var(--green);
+    font-weight: bold;
+    color: rgb(244, 238, 238);
+    font-family: 'lato';
+    font-size: 1.3rem;
+    border: 0;
+    cursor: pointer;
+}
