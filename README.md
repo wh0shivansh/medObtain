@@ -1,2 +1,2 @@
 # medObtain
-link - medobtain.epizy.com
+link - http://medobtain.epizy.com
